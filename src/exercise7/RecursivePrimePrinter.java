@@ -13,7 +13,7 @@ public class RecursivePrimePrinter {
     }
 
     public static void printPrimes(int n) {
-      if (n==0) {
+      if (n == 0) {
         return;
       }
       if(isPrime(n)) {
